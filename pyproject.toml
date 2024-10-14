@@ -1,0 +1,12 @@
+[project]
+name = "slack-bot-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dashscope>=1.20.10",
+    "pydantic-settings>=2.5.2",
+    "pydantic>=2.9.2",
+    "slack-bolt>=1.20.1",
+]
