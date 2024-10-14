@@ -2,12 +2,14 @@ from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
+import sys
 import logging
 from http import HTTPStatus
 import dashscope
 
 dashscope.base_http_api_url = "https://dashscope-intl.aliyuncs.com/api/v1"
 
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
