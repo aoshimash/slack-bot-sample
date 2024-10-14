@@ -1,0 +1,5 @@
+.venv
+.env
+.gitignore
+LICENSE
+README.md

@@ -43,3 +43,9 @@ uv sync
 ```bash
 uv run app.py
 ```
+
+or
+
+```bash
+docker run --env-file .env aoshimash/slack-bot-sample:latest
+```
